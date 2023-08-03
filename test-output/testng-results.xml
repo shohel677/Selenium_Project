@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results retried="1" ignored="1" total="5" passed="2" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-08-03T17:26:52 BDT" name="Suite" finished-at="2023-08-03T17:27:18 BDT" duration-ms="26138">
+    <groups>
+      <group name="Order">
+        <method signature="OrderSubmit.submitOrder()[pri:0, instance:GS.SeleniumFramework.OrderSubmit@21694e53]" name="submitOrder" class="GS.SeleniumFramework.OrderSubmit"/>
+      </group> <!-- Order -->
+      <group name="Login">
+        <method signature="Login.login()[pri:0, instance:GS.SeleniumFramework.Login@549621f3]" name="login" class="GS.SeleniumFramework.Login"/>
+        <method signature="Login.loginInvalidPassword()[pri:0, instance:GS.SeleniumFramework.Login@549621f3]" name="loginInvalidPassword" class="GS.SeleniumFramework.Login"/>
+      </group> <!-- Login -->
+    </groups>
+    <test started-at="2023-08-03T17:26:52 BDT" name="Login test" finished-at="2023-08-03T17:27:06 BDT" duration-ms="14130">
+      <class name="GS.SeleniumFramework.Login">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:GS.SeleniumFramework.Login@549621f3]" started-at="2023-08-03T17:26:52 BDT" name="launchApplication" finished-at="2023-08-03T17:26:55 BDT" duration-ms="3156" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="login()[pri:0, instance:GS.SeleniumFramework.Login@549621f3]" started-at="2023-08-03T17:26:55 BDT" name="login" finished-at="2023-08-03T17:26:56 BDT" duration-ms="420" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:GS.SeleniumFramework.Login@549621f3]" started-at="2023-08-03T17:26:56 BDT" name="tearDown" finished-at="2023-08-03T17:26:57 BDT" duration-ms="1096" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=login status=SUCCESS method=Login.login()[pri:0, instance:GS.SeleniumFramework.Login@549621f3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:GS.SeleniumFramework.Login@549621f3]" started-at="2023-08-03T17:26:57 BDT" name="launchApplication" finished-at="2023-08-03T17:27:00 BDT" duration-ms="2782" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method retried="true" signature="loginInvalidPassword()[pri:0, instance:GS.SeleniumFramework.Login@549621f3]" started-at="2023-08-03T17:27:00 BDT" name="loginInvalidPassword" finished-at="2023-08-03T17:27:01 BDT" duration-ms="1131" status="SKIP">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Incorrect email  password.] but found [Incorrect email or password.]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Incorrect email  password.] but found [Incorrect email or password.]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:656)
+at org.testng.Assert.assertEquals(Assert.java:666)
+at GS.SeleniumFramework.Login.loginInvalidPassword(Login.java:45)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginInvalidPassword -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:GS.SeleniumFramework.Login@549621f3]" started-at="2023-08-03T17:27:01 BDT" name="tearDown" finished-at="2023-08-03T17:27:02 BDT" duration-ms="1116" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginInvalidPassword status=SKIP method=Login.loginInvalidPassword()[pri:0, instance:GS.SeleniumFramework.Login@549621f3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:GS.SeleniumFramework.Login@549621f3]" started-at="2023-08-03T17:27:02 BDT" name="launchApplication" finished-at="2023-08-03T17:27:04 BDT" duration-ms="1851" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="loginInvalidPassword()[pri:0, instance:GS.SeleniumFramework.Login@549621f3]" started-at="2023-08-03T17:27:04 BDT" name="loginInvalidPassword" finished-at="2023-08-03T17:27:05 BDT" duration-ms="1041" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Incorrect email  password.] but found [Incorrect email or password.]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Incorrect email  password.] but found [Incorrect email or password.]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:656)
+at org.testng.Assert.assertEquals(Assert.java:666)
+at GS.SeleniumFramework.Login.loginInvalidPassword(Login.java:45)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:248)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:62)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginInvalidPassword -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:GS.SeleniumFramework.Login@549621f3]" started-at="2023-08-03T17:27:05 BDT" name="tearDown" finished-at="2023-08-03T17:27:06 BDT" duration-ms="1090" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginInvalidPassword status=FAILURE method=Login.loginInvalidPassword()[pri:0, instance:GS.SeleniumFramework.Login@549621f3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- GS.SeleniumFramework.Login -->
+    </test> <!-- Login test -->
+    <test started-at="2023-08-03T17:27:07 BDT" name="Submit Order" finished-at="2023-08-03T17:27:18 BDT" duration-ms="11660">
+      <class name="GS.SeleniumFramework.OrderSubmit">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:GS.SeleniumFramework.OrderSubmit@21694e53]" started-at="2023-08-03T17:27:07 BDT" name="launchApplication" finished-at="2023-08-03T17:27:08 BDT" duration-ms="1791" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="submitOrder()[pri:0, instance:GS.SeleniumFramework.OrderSubmit@21694e53]" started-at="2023-08-03T17:27:08 BDT" name="submitOrder" finished-at="2023-08-03T17:27:17 BDT" duration-ms="8735" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitOrder -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:GS.SeleniumFramework.OrderSubmit@21694e53]" started-at="2023-08-03T17:27:17 BDT" name="tearDown" finished-at="2023-08-03T17:27:18 BDT" duration-ms="1131" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=submitOrder status=SUCCESS method=OrderSubmit.submitOrder()[pri:0, instance:GS.SeleniumFramework.OrderSubmit@21694e53] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- GS.SeleniumFramework.OrderSubmit -->
+    </test> <!-- Submit Order -->
+  </suite> <!-- Suite -->
+</testng-results>

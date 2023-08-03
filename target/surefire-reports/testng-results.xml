@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-07-22T09:07:10Z" name="Suite" finished-at="2023-07-22T09:07:28Z" duration-ms="17798">
+    <groups>
+      <group name="Order">
+        <method signature="OrderSubmit.submitOrder()[pri:0, instance:GS.SeleniumFramework.OrderSubmit@4612b856]" name="submitOrder" class="GS.SeleniumFramework.OrderSubmit"/>
+      </group> <!-- Order -->
+      <group name="Login">
+        <method signature="Login.login()[pri:0, instance:GS.SeleniumFramework.Login@7862f56]" name="login" class="GS.SeleniumFramework.Login"/>
+        <method signature="Login.loginInvalidPassword()[pri:0, instance:GS.SeleniumFramework.Login@7862f56]" name="loginInvalidPassword" class="GS.SeleniumFramework.Login"/>
+      </group> <!-- Login -->
+    </groups>
+    <test started-at="2023-07-22T09:07:10Z" name="Login test" finished-at="2023-07-22T09:07:24Z" duration-ms="13761">
+      <class name="GS.SeleniumFramework.Login">
+        <test-method is-config="true" signature="setup()[pri:0, instance:GS.SeleniumFramework.Login@7862f56]" started-at="2023-07-22T09:07:10Z" name="setup" finished-at="2023-07-22T09:07:11Z" duration-ms="32" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:GS.SeleniumFramework.Login@7862f56]" started-at="2023-07-22T09:07:11Z" name="launchApplication" finished-at="2023-07-22T09:07:18Z" duration-ms="7975" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="login()[pri:0, instance:GS.SeleniumFramework.Login@7862f56]" started-at="2023-07-22T09:07:18Z" name="login" finished-at="2023-07-22T09:07:19Z" duration-ms="280" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:GS.SeleniumFramework.Login@7862f56]" started-at="2023-07-22T09:07:19Z" name="tearDown" finished-at="2023-07-22T09:07:20Z" duration-ms="1027" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:GS.SeleniumFramework.Login@7862f56]" started-at="2023-07-22T09:07:20Z" name="launchApplication" finished-at="2023-07-22T09:07:23Z" duration-ms="2871" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="loginInvalidPassword()[pri:0, instance:GS.SeleniumFramework.Login@7862f56]" started-at="2023-07-22T09:07:23Z" name="loginInvalidPassword" finished-at="2023-07-22T09:07:23Z" duration-ms="495" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginInvalidPassword -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:GS.SeleniumFramework.Login@7862f56]" started-at="2023-07-22T09:07:23Z" name="tearDown" finished-at="2023-07-22T09:07:24Z" duration-ms="1061" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- GS.SeleniumFramework.Login -->
+    </test> <!-- Login test -->
+    <test started-at="2023-07-22T09:07:10Z" name="Submit Order" finished-at="2023-07-22T09:07:28Z" duration-ms="17798">
+      <class name="GS.SeleniumFramework.OrderSubmit">
+        <test-method is-config="true" signature="setup()[pri:0, instance:GS.SeleniumFramework.OrderSubmit@4612b856]" started-at="2023-07-22T09:07:10Z" name="setup" finished-at="2023-07-22T09:07:11Z" duration-ms="33" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:GS.SeleniumFramework.OrderSubmit@4612b856]" started-at="2023-07-22T09:07:11Z" name="launchApplication" finished-at="2023-07-22T09:07:18Z" duration-ms="7924" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="submitOrder()[pri:0, instance:GS.SeleniumFramework.OrderSubmit@4612b856]" started-at="2023-07-22T09:07:18Z" name="submitOrder" finished-at="2023-07-22T09:07:27Z" duration-ms="8780" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitOrder -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:GS.SeleniumFramework.OrderSubmit@4612b856]" started-at="2023-07-22T09:07:27Z" name="tearDown" finished-at="2023-07-22T09:07:28Z" duration-ms="1049" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- GS.SeleniumFramework.OrderSubmit -->
+    </test> <!-- Submit Order -->
+  </suite> <!-- Suite -->
+</testng-results>
