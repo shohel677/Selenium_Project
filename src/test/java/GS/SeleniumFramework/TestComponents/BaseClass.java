@@ -34,7 +34,9 @@ public class BaseClass {
 		String BrowserName = System.getProperty("browser")!=null ? System.getProperty("browser") :prop.getProperty("browser");
 		if (BrowserName.contains("chrome")) {
 			ChromeOptions options = new ChromeOptions();
+			options.addArguments("--remote-allow-origins=*");
 			WebDriverManager.chromedriver().setup();
+			
 			if(BrowserName.contains("headless")){
 			options.addArguments("headless");
 			}		
@@ -51,7 +53,7 @@ public class BaseClass {
 			WebDriverManager.edgedriver().setup();
 			driver = new EdgeDriver();
 		}
-		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
 		driver.manage().window().maximize();
 		return driver;
 		
@@ -90,7 +92,7 @@ public class BaseClass {
 		}
 
 		Thread.sleep(1000);
-		driver.close();
+		driver.quit();
 	}
 
 

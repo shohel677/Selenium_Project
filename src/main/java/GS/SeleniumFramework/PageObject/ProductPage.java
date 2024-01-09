@@ -56,6 +56,8 @@ public class ProductPage extends AbstractComponents {
 	}
 	//Add to cart product for found product from above action 
 	public void addProductToCart(String productName) {
+		driver.findElement(addToCartButton);
+
 //		prod.findElement(By.cssSelector(".card-body button.btn:last-child")).click();
 //		wait.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector("#toast-container")));
 //		wait.until(ExpectedConditions.invisibilityOf(driver.findElement(By.cssSelector(".ng-animating"))));

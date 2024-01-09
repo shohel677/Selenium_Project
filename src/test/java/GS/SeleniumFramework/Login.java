@@ -40,7 +40,7 @@ public class Login extends BaseClass{
 		String expectedErrMsg = loginPage.negetiveLoginToApplication("shohel@gmail.com", "ybtyuduyer");
 		System.out.println(expectedErrMsg);
 		logger.info("Capturing error message");
-		String actualErrorMsg ="Incorrect email  password.";
+		String actualErrorMsg ="Incorrect email or password.";
 		logger.info("Asserting negative login testcase error message");
 		Assert.assertEquals(expectedErrMsg, actualErrorMsg);
 		logger.info("Assertion passed");

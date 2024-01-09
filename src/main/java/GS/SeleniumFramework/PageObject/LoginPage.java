@@ -7,9 +7,6 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
-import org.testng.annotations.BeforeClass;
-
-
 import GS.SeleniumFramework.Abstractcomponents.AbstractComponents;
 
 public class LoginPage extends AbstractComponents{

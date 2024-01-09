@@ -88,9 +88,6 @@ public class OrderSubmit extends BaseClass{
 		 Assert.assertTrue(confirmationMessage.equalsIgnoreCase("THANKYOU FOR THE ORDER."));
 		 logger.info("Thank you message assertion pass");
 		 
-		
-		
-		
 
 	}
 

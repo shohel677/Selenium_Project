@@ -1,0 +1,7 @@
+GS\SeleniumFramework\PageObject\LoginPage.class
+GS\SeleniumFramework\resources\ExtentReporterNG.class
+GS\SeleniumFramework\Abstractcomponents\AbstractComponents.class
+GS\SeleniumFramework\PageObject\CartPage.class
+GS\SeleniumFramework\PageObject\ThankYouPage.class
+GS\SeleniumFramework\PageObject\ProductPage.class
+GS\SeleniumFramework\PageObject\CheckoutPage.class

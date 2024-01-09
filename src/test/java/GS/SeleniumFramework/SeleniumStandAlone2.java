@@ -4,6 +4,7 @@ import java.time.Duration;
 import java.util.List;
 
 
+import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
@@ -13,7 +14,7 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 
-import io.github.bonigarcia.wdm.WebDriverManager;
+
 
 public class SeleniumStandAlone2 {
 
@@ -23,7 +24,7 @@ public class SeleniumStandAlone2 {
 		WebDriver driver = new ChromeDriver();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
-		driver.get("https://rahulshettyacademy.com/client");
+		driver.get("");
 		driver.manage().window().maximize();
 		driver.findElement(By.id("userEmail")).sendKeys("shohel@gmail.com");
 		driver.findElement(By.id("userPassword")).sendKeys("mKb6m2vD_Fgjze-");
@@ -41,13 +42,19 @@ public class SeleniumStandAlone2 {
 		
 		WebElement prod = products.stream().filter(product->
 		product.findElement(By.cssSelector("b")).getText().equals("ADIDAS ORIGINAL")).findFirst().orElse(null);
+		if(prod != null) {
 		prod.findElement(By.cssSelector(".card-body button.btn:last-child")).click();
+		} else {
+			System.out.println("Not found!");
+		}
+		
 		wait.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector("#toast-container")));
 		wait.until(ExpectedConditions.invisibilityOf(driver.findElement(By.cssSelector(".ng-animating"))));
 		
 		WebElement prodSecond = products.stream().filter(product->
 		product.findElement(By.cssSelector("b")).getText().equals("IPHONE 13 PRO")).findFirst().orElse(null);
 		prodSecond.findElement(By.cssSelector(".card-body button.btn:last-child")).click();
+		
 		wait.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector("#toast-container")));
 		wait.until(ExpectedConditions.invisibilityOf(driver.findElement(By.cssSelector(".ng-animating"))));
 		

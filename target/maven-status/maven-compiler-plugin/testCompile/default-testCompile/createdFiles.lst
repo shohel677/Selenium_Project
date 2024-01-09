@@ -1,0 +1,6 @@
+GS\SeleniumFramework\TestComponents\BaseClass.class
+GS\SeleniumFramework\TestComponents\Listeners.class
+GS\SeleniumFramework\TestComponents\Retry.class
+GS\SeleniumFramework\Login.class
+GS\SeleniumFramework\OrderSubmit.class
+GS\SeleniumFramework\SeleniumStandAlone2.class
