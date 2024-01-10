@@ -98,8 +98,8 @@
 	      <plugin>
 	        <groupId>org.apache.maven.plugins</groupId>
 	        <artifactId>maven-surefire-plugin</artifactId>
-	        <version>3.0.0-M6</version>
-	        <configuration>
+			  <version>3.2.5</version>
+			  <configuration>
 	          <suiteXmlFiles>
 	            <suiteXmlFile>testSuites/orderGroup.xml</suiteXmlFile>
 	          </suiteXmlFiles>
@@ -119,8 +119,8 @@
 	      <plugin>
 	        <groupId>org.apache.maven.plugins</groupId>
 	        <artifactId>maven-surefire-plugin</artifactId>
-	        <version>3.0.0-M6</version>
-	        <configuration>
+			  <version>3.2.5</version>
+			  <configuration>
 	          <suiteXmlFiles>
 	            <suiteXmlFile>testSuites/loginGroup.xml</suiteXmlFile>
 	          </suiteXmlFiles>
