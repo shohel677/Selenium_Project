@@ -57,7 +57,8 @@ public class BaseClass {
 		driver.manage().window().maximize();
 		return driver;
 		
-		
+
+
 	}
 	public String getScreenshot(String testCaseName,WebDriver driver) throws IOException
 	{
