@@ -2,50 +2,50 @@
 <testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-01-09T16:28:50 BDT" name="Suite" finished-at="2024-01-09T16:29:11 BDT" duration-ms="21022">
+  <suite started-at="2024-01-11T00:25:26 BDT" name="Suite" finished-at="2024-01-11T00:25:47 BDT" duration-ms="20438">
     <groups>
       <group name="Order">
-        <method signature="OrderSubmit.submitOrder()[pri:0, instance:GS.SeleniumFramework.OrderSubmit@632aa1a3]" name="submitOrder" class="GS.SeleniumFramework.OrderSubmit"/>
+        <method signature="OrderSubmit.submitOrder()[pri:0, instance:GS.SeleniumFramework.OrderSubmit@199e4c2b]" name="submitOrder" class="GS.SeleniumFramework.OrderSubmit"/>
       </group> <!-- Order -->
       <group name="Login">
-        <method signature="Login.login()[pri:0, instance:GS.SeleniumFramework.Login@5b69fd74]" name="login" class="GS.SeleniumFramework.Login"/>
-        <method signature="Login.loginInvalidPassword()[pri:0, instance:GS.SeleniumFramework.Login@5b69fd74]" name="loginInvalidPassword" class="GS.SeleniumFramework.Login"/>
+        <method signature="Login.login()[pri:0, instance:GS.SeleniumFramework.Login@3fc08eec]" name="login" class="GS.SeleniumFramework.Login"/>
+        <method signature="Login.loginInvalidPassword()[pri:0, instance:GS.SeleniumFramework.Login@3fc08eec]" name="loginInvalidPassword" class="GS.SeleniumFramework.Login"/>
       </group> <!-- Login -->
     </groups>
-    <test started-at="2024-01-09T16:28:50 BDT" name="Login test" finished-at="2024-01-09T16:28:58 BDT" duration-ms="7726">
+    <test started-at="2024-01-11T00:25:26 BDT" name="Login test" finished-at="2024-01-11T00:25:34 BDT" duration-ms="8078">
       <class name="GS.SeleniumFramework.Login">
-        <test-method is-config="true" signature="launchApplication()[pri:0, instance:GS.SeleniumFramework.Login@5b69fd74]" started-at="2024-01-09T16:28:50 BDT" name="launchApplication" finished-at="2024-01-09T16:28:53 BDT" duration-ms="2669" status="PASS">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:GS.SeleniumFramework.Login@3fc08eec]" started-at="2024-01-11T00:25:26 BDT" name="launchApplication" finished-at="2024-01-11T00:25:29 BDT" duration-ms="2790" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchApplication -->
-        <test-method signature="login()[pri:0, instance:GS.SeleniumFramework.Login@5b69fd74]" started-at="2024-01-09T16:28:53 BDT" name="login" finished-at="2024-01-09T16:28:54 BDT" duration-ms="368" status="PASS">
+        <test-method signature="login()[pri:0, instance:GS.SeleniumFramework.Login@3fc08eec]" started-at="2024-01-11T00:25:29 BDT" name="login" finished-at="2024-01-11T00:25:29 BDT" duration-ms="329" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:GS.SeleniumFramework.Login@5b69fd74]" started-at="2024-01-09T16:28:54 BDT" name="tearDown" finished-at="2024-01-09T16:28:55 BDT" duration-ms="1203" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:GS.SeleniumFramework.Login@3fc08eec]" started-at="2024-01-11T00:25:29 BDT" name="tearDown" finished-at="2024-01-11T00:25:30 BDT" duration-ms="1165" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=login status=SUCCESS method=Login.login()[pri:0, instance:GS.SeleniumFramework.Login@5b69fd74] output={null}]]]>
+                <![CDATA[[TestResult name=login status=SUCCESS method=Login.login()[pri:0, instance:GS.SeleniumFramework.Login@3fc08eec] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="launchApplication()[pri:0, instance:GS.SeleniumFramework.Login@5b69fd74]" started-at="2024-01-09T16:28:55 BDT" name="launchApplication" finished-at="2024-01-09T16:28:56 BDT" duration-ms="1645" status="PASS">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:GS.SeleniumFramework.Login@3fc08eec]" started-at="2024-01-11T00:25:30 BDT" name="launchApplication" finished-at="2024-01-11T00:25:32 BDT" duration-ms="1886" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchApplication -->
-        <test-method signature="loginInvalidPassword()[pri:0, instance:GS.SeleniumFramework.Login@5b69fd74]" started-at="2024-01-09T16:28:56 BDT" name="loginInvalidPassword" finished-at="2024-01-09T16:28:57 BDT" duration-ms="585" status="PASS">
+        <test-method signature="loginInvalidPassword()[pri:0, instance:GS.SeleniumFramework.Login@3fc08eec]" started-at="2024-01-11T00:25:32 BDT" name="loginInvalidPassword" finished-at="2024-01-11T00:25:33 BDT" duration-ms="664" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginInvalidPassword -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:GS.SeleniumFramework.Login@5b69fd74]" started-at="2024-01-09T16:28:57 BDT" name="tearDown" finished-at="2024-01-09T16:28:58 BDT" duration-ms="1195" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:GS.SeleniumFramework.Login@3fc08eec]" started-at="2024-01-11T00:25:33 BDT" name="tearDown" finished-at="2024-01-11T00:25:34 BDT" duration-ms="1193" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=loginInvalidPassword status=SUCCESS method=Login.loginInvalidPassword()[pri:0, instance:GS.SeleniumFramework.Login@5b69fd74] output={null}]]]>
+                <![CDATA[[TestResult name=loginInvalidPassword status=SUCCESS method=Login.loginInvalidPassword()[pri:0, instance:GS.SeleniumFramework.Login@3fc08eec] output={null}]]]>
               </value>
             </param>
           </params>
@@ -54,21 +54,21 @@
         </test-method> <!-- tearDown -->
       </class> <!-- GS.SeleniumFramework.Login -->
     </test> <!-- Login test -->
-    <test started-at="2024-01-09T16:28:59 BDT" name="Submit Order" finished-at="2024-01-09T16:29:11 BDT" duration-ms="12801">
+    <test started-at="2024-01-11T00:25:34 BDT" name="Submit Order" finished-at="2024-01-11T00:25:47 BDT" duration-ms="12095">
       <class name="GS.SeleniumFramework.OrderSubmit">
-        <test-method is-config="true" signature="launchApplication()[pri:0, instance:GS.SeleniumFramework.OrderSubmit@632aa1a3]" started-at="2024-01-09T16:28:59 BDT" name="launchApplication" finished-at="2024-01-09T16:29:01 BDT" duration-ms="2777" status="PASS">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:GS.SeleniumFramework.OrderSubmit@199e4c2b]" started-at="2024-01-11T00:25:34 BDT" name="launchApplication" finished-at="2024-01-11T00:25:36 BDT" duration-ms="1907" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchApplication -->
-        <test-method signature="submitOrder()[pri:0, instance:GS.SeleniumFramework.OrderSubmit@632aa1a3]" started-at="2024-01-09T16:29:01 BDT" name="submitOrder" finished-at="2024-01-09T16:29:10 BDT" duration-ms="8781" status="PASS">
+        <test-method signature="submitOrder()[pri:0, instance:GS.SeleniumFramework.OrderSubmit@199e4c2b]" started-at="2024-01-11T00:25:36 BDT" name="submitOrder" finished-at="2024-01-11T00:25:45 BDT" duration-ms="8989" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- submitOrder -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:GS.SeleniumFramework.OrderSubmit@632aa1a3]" started-at="2024-01-09T16:29:10 BDT" name="tearDown" finished-at="2024-01-09T16:29:11 BDT" duration-ms="1238" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:GS.SeleniumFramework.OrderSubmit@199e4c2b]" started-at="2024-01-11T00:25:45 BDT" name="tearDown" finished-at="2024-01-11T00:25:47 BDT" duration-ms="1197" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=submitOrder status=SUCCESS method=OrderSubmit.submitOrder()[pri:0, instance:GS.SeleniumFramework.OrderSubmit@632aa1a3] output={null}]]]>
+                <![CDATA[[TestResult name=submitOrder status=SUCCESS method=OrderSubmit.submitOrder()[pri:0, instance:GS.SeleniumFramework.OrderSubmit@199e4c2b] output={null}]]]>
               </value>
             </param>
           </params>
