@@ -1,0 +1,428 @@
+00:33:29.067 [AsyncHttpClient-1-2] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.batchFastThreadLocalOnly: true
+00:33:29.661 [AsyncHttpClient-1-2] DEBUG io.netty.handler.codec.compression.Brotli - brotli4j not in the classpath; Brotli support will be unavailable.
+00:33:29.770 [main] DEBUG io.netty.util.internal.ThreadLocalRandom - -Dio.netty.initialSeedUniquifier: 0x8946ed58a22de90e
+00:33:30.919 [main] INFO  GS.SeleniumFramework.Login - ################################################################################
+00:33:30.919 [main] INFO  GS.SeleniumFramework.Login - Positive login testcase started
+00:33:31.292 [main] INFO  GS.SeleniumFramework.Login - Positive login testcase successfully executed
+00:33:35.759 [main] INFO  GS.SeleniumFramework.Login - ################################################################################
+00:33:35.759 [main] INFO  GS.SeleniumFramework.Login - Negative login testcase started
+00:33:35.761 [main] INFO  GS.SeleniumFramework.Login - Inputting valid email and invalid password
+00:33:36.770 [main] INFO  GS.SeleniumFramework.Login - Capturing error message
+00:33:36.770 [main] INFO  GS.SeleniumFramework.Login - Asserting negative login testcase error message
+00:33:36.772 [main] INFO  GS.SeleniumFramework.Login - Assertion passed
+00:33:36.772 [main] INFO  GS.SeleniumFramework.Login - Negative login testcase successfully executed
+00:33:40.112 [main] INFO  GS.SeleniumFramework.OrderSubmit - ################################################################################
+00:33:40.113 [main] INFO  GS.SeleniumFramework.OrderSubmit - Submit order testcase stared
+00:33:40.113 [main] INFO  GS.SeleniumFramework.OrderSubmit - Login into site
+00:33:40.459 [main] INFO  GS.SeleniumFramework.OrderSubmit - Clicking add to cart button for ADIDAS ORIGINAL
+00:33:42.507 [main] INFO  GS.SeleniumFramework.OrderSubmit - Clicking add to cart button for IPHONE 13 PRO
+00:33:45.348 [main] INFO  GS.SeleniumFramework.OrderSubmit - Clicking button for going to cart page 
+00:33:45.421 [main] INFO  GS.SeleniumFramework.OrderSubmit - Verifying product existence in cart page 
+00:33:45.506 [main] INFO  GS.SeleniumFramework.OrderSubmit - Assertion passed
+00:33:45.506 [main] INFO  GS.SeleniumFramework.OrderSubmit - Clicking checkout button 
+00:33:46.591 [main] INFO  GS.SeleniumFramework.OrderSubmit - Landed on checkout page
+00:33:46.593 [main] INFO  GS.SeleniumFramework.OrderSubmit - Selecting country India in checkout page
+00:33:48.862 [main] INFO  GS.SeleniumFramework.OrderSubmit - Country india selected from dropdown
+00:33:48.862 [main] INFO  GS.SeleniumFramework.OrderSubmit - Clicking submit button
+00:33:48.938 [main] INFO  GS.SeleniumFramework.OrderSubmit - Order submitted
+00:33:48.940 [main] INFO  GS.SeleniumFramework.OrderSubmit - Capturing thank you message from thank you page
+00:33:49.116 [main] INFO  GS.SeleniumFramework.OrderSubmit - Thank you message assertion pass
+00:34:36.918 [main] DEBUG io.netty.util.internal.logging.InternalLoggerFactory - Using Log4J2 as the default logging framework
+00:34:36.924 [main] DEBUG io.netty.util.ResourceLeakDetector - -Dio.netty.leakDetection.level: simple
+00:34:36.924 [main] DEBUG io.netty.util.ResourceLeakDetector - -Dio.netty.leakDetection.targetRecords: 4
+00:34:36.926 [main] DEBUG io.netty.util.ResourceLeakDetectorFactory - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@ac20bb4
+00:34:36.938 [main] DEBUG io.netty.util.internal.PlatformDependent0 - -Dio.netty.noUnsafe: false
+00:34:36.938 [main] DEBUG io.netty.util.internal.PlatformDependent0 - Java version: 11
+00:34:36.938 [main] DEBUG io.netty.util.internal.PlatformDependent0 - sun.misc.Unsafe.theUnsafe: available
+00:34:36.939 [main] DEBUG io.netty.util.internal.PlatformDependent0 - sun.misc.Unsafe.copyMemory: available
+00:34:36.939 [main] DEBUG io.netty.util.internal.PlatformDependent0 - sun.misc.Unsafe.storeFence: available
+00:34:36.939 [main] DEBUG io.netty.util.internal.PlatformDependent0 - java.nio.Buffer.address: available
+00:34:36.939 [main] DEBUG io.netty.util.internal.PlatformDependent0 - direct buffer constructor: unavailable: Reflective setAccessible(true) disabled
+00:34:36.940 [main] DEBUG io.netty.util.internal.PlatformDependent0 - java.nio.Bits.unaligned: available, true
+00:34:36.940 [main] DEBUG io.netty.util.internal.PlatformDependent0 - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable: class io.netty.util.internal.PlatformDependent0$7 cannot access class jdk.internal.misc.Unsafe (in module java.base) because module java.base does not export jdk.internal.misc to unnamed module @574cd322
+00:34:36.941 [main] DEBUG io.netty.util.internal.PlatformDependent0 - java.nio.DirectByteBuffer.<init>(long, int): unavailable
+00:34:36.941 [main] DEBUG io.netty.util.internal.PlatformDependent - sun.misc.Unsafe: available
+00:34:36.941 [main] DEBUG io.netty.util.internal.PlatformDependent - maxDirectMemory: 4208984064 bytes (maybe)
+00:34:36.941 [main] DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.tmpdir: C:\Users\STL\AppData\Local\Temp (java.io.tmpdir)
+00:34:36.941 [main] DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+00:34:36.941 [main] DEBUG io.netty.util.internal.PlatformDependent - Platform: Windows
+00:34:36.943 [main] DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.maxDirectMemory: -1 bytes
+00:34:36.943 [main] DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+00:34:36.943 [main] DEBUG io.netty.util.internal.CleanerJava9 - java.nio.ByteBuffer.cleaner(): available
+00:34:36.943 [main] DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.noPreferDirect: false
+00:34:36.948 [main] DEBUG io.netty.util.internal.PlatformDependent - org.jctools-core.MpscChunkedArrayQueue: available
+00:34:36.962 [main] DEBUG io.netty.util.internal.InternalThreadLocalMap - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+00:34:36.962 [main] DEBUG io.netty.util.internal.InternalThreadLocalMap - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+00:34:36.979 [main] DEBUG io.netty.handler.ssl.JdkSslContext - Default protocols (JDK): [TLSv1.3, TLSv1.2] 
+00:34:36.979 [main] DEBUG io.netty.handler.ssl.JdkSslContext - Default cipher suites (JDK): [TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_AES_128_GCM_SHA256, TLS_AES_256_GCM_SHA384]
+00:34:36.990 [main] DEBUG io.netty.util.concurrent.GlobalEventExecutor - -Dio.netty.globalEventExecutor.quietPeriodSeconds: 1
+00:34:36.998 [main] DEBUG io.netty.channel.MultithreadEventLoopGroup - -Dio.netty.eventLoopThreads: 24
+00:34:37.006 [main] DEBUG io.netty.channel.nio.NioEventLoop - -Dio.netty.noKeySetOptimization: false
+00:34:37.007 [main] DEBUG io.netty.channel.nio.NioEventLoop - -Dio.netty.selectorAutoRebuildThreshold: 512
+00:34:37.040 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.numHeapArenas: 24
+00:34:37.040 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.numDirectArenas: 24
+00:34:37.040 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.pageSize: 8192
+00:34:37.040 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxOrder: 9
+00:34:37.040 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.chunkSize: 4194304
+00:34:37.040 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.smallCacheSize: 256
+00:34:37.040 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.normalCacheSize: 64
+00:34:37.040 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+00:34:37.040 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.cacheTrimInterval: 8192
+00:34:37.040 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+00:34:37.040 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.useCacheForAllThreads: false
+00:34:37.040 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+00:34:37.049 [main] DEBUG io.netty.buffer.ByteBufUtil - -Dio.netty.allocator.type: pooled
+00:34:37.049 [main] DEBUG io.netty.buffer.ByteBufUtil - -Dio.netty.threadLocalDirectBufferSize: 0
+00:34:37.050 [main] DEBUG io.netty.buffer.ByteBufUtil - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+00:34:37.314 [Forwarding newSession on session null to remote] DEBUG io.netty.channel.DefaultChannelId - -Dio.netty.processId: 7140 (auto-detected)
+00:34:37.316 [Forwarding newSession on session null to remote] DEBUG io.netty.util.NetUtil - -Djava.net.preferIPv4Stack: false
+00:34:37.316 [Forwarding newSession on session null to remote] DEBUG io.netty.util.NetUtil - -Djava.net.preferIPv6Addresses: false
+00:34:37.471 [Forwarding newSession on session null to remote] DEBUG io.netty.util.NetUtilInitializations - Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+00:34:37.472 [Forwarding newSession on session null to remote] DEBUG io.netty.util.NetUtil - Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+00:34:37.483 [Forwarding newSession on session null to remote] DEBUG io.netty.channel.DefaultChannelId - -Dio.netty.machineId: f0:a6:54:ff:fe:7d:30:37 (auto-detected)
+00:34:37.515 [AsyncHttpClient-1-2] DEBUG io.netty.buffer.AbstractByteBuf - -Dio.netty.buffer.checkAccessible: true
+00:34:37.516 [AsyncHttpClient-1-2] DEBUG io.netty.buffer.AbstractByteBuf - -Dio.netty.buffer.checkBounds: true
+00:34:37.516 [AsyncHttpClient-1-2] DEBUG io.netty.util.ResourceLeakDetectorFactory - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@79510431
+00:34:37.539 [AsyncHttpClient-1-2] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.maxCapacityPerThread: 4096
+00:34:37.539 [AsyncHttpClient-1-2] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.ratio: 8
+00:34:37.540 [AsyncHttpClient-1-2] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.chunkSize: 32
+00:34:37.540 [AsyncHttpClient-1-2] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.blocking: false
+00:34:37.540 [AsyncHttpClient-1-2] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.batchFastThreadLocalOnly: true
+00:34:38.103 [AsyncHttpClient-1-2] DEBUG io.netty.handler.codec.compression.Brotli - brotli4j not in the classpath; Brotli support will be unavailable.
+00:34:38.208 [main] DEBUG io.netty.util.internal.ThreadLocalRandom - -Dio.netty.initialSeedUniquifier: 0x8eb5be431dd15397
+00:34:41.990 [main] INFO  GS.SeleniumFramework.Login - ################################################################################
+00:34:41.990 [main] INFO  GS.SeleniumFramework.Login - Positive login testcase started
+00:34:42.337 [main] INFO  GS.SeleniumFramework.Login - Positive login testcase successfully executed
+00:34:45.492 [main] INFO  GS.SeleniumFramework.Login - ################################################################################
+00:34:45.492 [main] INFO  GS.SeleniumFramework.Login - Negative login testcase started
+00:34:45.494 [main] INFO  GS.SeleniumFramework.Login - Inputting valid email and invalid password
+00:34:46.537 [main] INFO  GS.SeleniumFramework.Login - Capturing error message
+00:34:46.537 [main] INFO  GS.SeleniumFramework.Login - Asserting negative login testcase error message
+00:34:46.539 [main] INFO  GS.SeleniumFramework.Login - Assertion passed
+00:34:46.539 [main] INFO  GS.SeleniumFramework.Login - Negative login testcase successfully executed
+00:34:49.854 [main] INFO  GS.SeleniumFramework.OrderSubmit - ################################################################################
+00:34:49.856 [main] INFO  GS.SeleniumFramework.OrderSubmit - Submit order testcase stared
+00:34:49.856 [main] INFO  GS.SeleniumFramework.OrderSubmit - Login into site
+00:34:50.196 [main] INFO  GS.SeleniumFramework.OrderSubmit - Clicking add to cart button for ADIDAS ORIGINAL
+00:34:52.431 [main] INFO  GS.SeleniumFramework.OrderSubmit - Clicking add to cart button for IPHONE 13 PRO
+00:34:55.284 [main] INFO  GS.SeleniumFramework.OrderSubmit - Clicking button for going to cart page 
+00:34:55.361 [main] INFO  GS.SeleniumFramework.OrderSubmit - Verifying product existence in cart page 
+00:34:55.453 [main] INFO  GS.SeleniumFramework.OrderSubmit - Assertion passed
+00:34:55.453 [main] INFO  GS.SeleniumFramework.OrderSubmit - Clicking checkout button 
+00:34:56.543 [main] INFO  GS.SeleniumFramework.OrderSubmit - Landed on checkout page
+00:34:56.545 [main] INFO  GS.SeleniumFramework.OrderSubmit - Selecting country India in checkout page
+00:34:58.732 [main] INFO  GS.SeleniumFramework.OrderSubmit - Country india selected from dropdown
+00:34:58.732 [main] INFO  GS.SeleniumFramework.OrderSubmit - Clicking submit button
+00:34:58.765 [main] INFO  GS.SeleniumFramework.OrderSubmit - Order submitted
+00:34:58.767 [main] INFO  GS.SeleniumFramework.OrderSubmit - Capturing thank you message from thank you page
+00:34:58.892 [main] INFO  GS.SeleniumFramework.OrderSubmit - Thank you message assertion pass
+00:53:13.768 [main] INFO  GS.SeleniumFramework.Login - ################################################################################
+00:53:13.772 [main] INFO  GS.SeleniumFramework.Login - Positive login testcase started
+00:53:14.190 [main] INFO  GS.SeleniumFramework.Login - Positive login testcase successfully executed
+00:53:17.218 [main] INFO  GS.SeleniumFramework.Login - ################################################################################
+00:53:17.218 [main] INFO  GS.SeleniumFramework.Login - Negative login testcase started
+00:53:17.221 [main] INFO  GS.SeleniumFramework.Login - Inputting valid email and invalid password
+00:53:17.737 [main] INFO  GS.SeleniumFramework.Login - Capturing error message
+00:53:17.737 [main] INFO  GS.SeleniumFramework.Login - Asserting negative login testcase error message
+00:53:17.739 [main] INFO  GS.SeleniumFramework.Login - Assertion passed
+00:53:17.739 [main] INFO  GS.SeleniumFramework.Login - Negative login testcase successfully executed
+00:53:20.509 [main] INFO  GS.SeleniumFramework.OrderSubmit - ################################################################################
+00:53:20.510 [main] INFO  GS.SeleniumFramework.OrderSubmit - Submit order testcase stared
+00:53:20.510 [main] INFO  GS.SeleniumFramework.OrderSubmit - Login into site
+00:53:22.537 [main] INFO  GS.SeleniumFramework.OrderSubmit - Clicking add to cart button for ADIDAS ORIGINAL
+00:53:24.633 [main] INFO  GS.SeleniumFramework.OrderSubmit - Clicking add to cart button for IPHONE 13 PRO
+00:53:27.444 [main] INFO  GS.SeleniumFramework.OrderSubmit - Clicking button for going to cart page 
+00:53:27.520 [main] INFO  GS.SeleniumFramework.OrderSubmit - Verifying product existence in cart page 
+00:53:27.608 [main] INFO  GS.SeleniumFramework.OrderSubmit - Assertion passed
+00:53:27.608 [main] INFO  GS.SeleniumFramework.OrderSubmit - Clicking checkout button 
+00:53:28.690 [main] INFO  GS.SeleniumFramework.OrderSubmit - Landed on checkout page
+00:53:28.692 [main] INFO  GS.SeleniumFramework.OrderSubmit - Selecting country India in checkout page
+00:53:30.871 [main] INFO  GS.SeleniumFramework.OrderSubmit - Country india selected from dropdown
+00:53:30.871 [main] INFO  GS.SeleniumFramework.OrderSubmit - Clicking submit button
+00:53:30.919 [main] INFO  GS.SeleniumFramework.OrderSubmit - Order submitted
+00:53:30.921 [main] INFO  GS.SeleniumFramework.OrderSubmit - Capturing thank you message from thank you page
+00:53:31.069 [main] INFO  GS.SeleniumFramework.OrderSubmit - Thank you message assertion pass
+11:45:53.258 [main] DEBUG io.netty.util.internal.logging.InternalLoggerFactory - Using Log4J2 as the default logging framework
+11:45:53.267 [main] DEBUG io.netty.util.ResourceLeakDetector - -Dio.netty.leakDetection.level: simple
+11:45:53.267 [main] DEBUG io.netty.util.ResourceLeakDetector - -Dio.netty.leakDetection.targetRecords: 4
+11:45:53.272 [main] DEBUG io.netty.util.ResourceLeakDetectorFactory - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@4af45442
+11:45:53.315 [main] DEBUG io.netty.util.internal.PlatformDependent0 - -Dio.netty.noUnsafe: false
+11:45:53.315 [main] DEBUG io.netty.util.internal.PlatformDependent0 - Java version: 11
+11:45:53.317 [main] DEBUG io.netty.util.internal.PlatformDependent0 - sun.misc.Unsafe.theUnsafe: available
+11:45:53.318 [main] DEBUG io.netty.util.internal.PlatformDependent0 - sun.misc.Unsafe.copyMemory: available
+11:45:53.318 [main] DEBUG io.netty.util.internal.PlatformDependent0 - sun.misc.Unsafe.storeFence: available
+11:45:53.319 [main] DEBUG io.netty.util.internal.PlatformDependent0 - java.nio.Buffer.address: available
+11:45:53.319 [main] DEBUG io.netty.util.internal.PlatformDependent0 - direct buffer constructor: unavailable: Reflective setAccessible(true) disabled
+11:45:53.320 [main] DEBUG io.netty.util.internal.PlatformDependent0 - java.nio.Bits.unaligned: available, true
+11:45:53.320 [main] DEBUG io.netty.util.internal.PlatformDependent0 - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable: class io.netty.util.internal.PlatformDependent0$7 cannot access class jdk.internal.misc.Unsafe (in module java.base) because module java.base does not export jdk.internal.misc to unnamed module @2da66a44
+11:45:53.321 [main] DEBUG io.netty.util.internal.PlatformDependent0 - java.nio.DirectByteBuffer.<init>(long, int): unavailable
+11:45:53.322 [main] DEBUG io.netty.util.internal.PlatformDependent - sun.misc.Unsafe: available
+11:45:53.322 [main] DEBUG io.netty.util.internal.PlatformDependent - maxDirectMemory: 4208984064 bytes (maybe)
+11:45:53.323 [main] DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.tmpdir: C:\Users\STL\AppData\Local\Temp (java.io.tmpdir)
+11:45:53.323 [main] DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+11:45:53.323 [main] DEBUG io.netty.util.internal.PlatformDependent - Platform: Windows
+11:45:53.324 [main] DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.maxDirectMemory: -1 bytes
+11:45:53.324 [main] DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+11:45:53.325 [main] DEBUG io.netty.util.internal.CleanerJava9 - java.nio.ByteBuffer.cleaner(): available
+11:45:53.325 [main] DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.noPreferDirect: false
+11:45:53.331 [main] DEBUG io.netty.util.internal.PlatformDependent - org.jctools-core.MpscChunkedArrayQueue: available
+11:45:53.353 [main] DEBUG io.netty.util.internal.InternalThreadLocalMap - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+11:45:53.353 [main] DEBUG io.netty.util.internal.InternalThreadLocalMap - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+11:45:53.370 [main] DEBUG io.netty.handler.ssl.JdkSslContext - Default protocols (JDK): [TLSv1.3, TLSv1.2] 
+11:45:53.370 [main] DEBUG io.netty.handler.ssl.JdkSslContext - Default cipher suites (JDK): [TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_AES_128_GCM_SHA256, TLS_AES_256_GCM_SHA384]
+11:45:53.386 [main] DEBUG io.netty.util.concurrent.GlobalEventExecutor - -Dio.netty.globalEventExecutor.quietPeriodSeconds: 1
+11:45:53.397 [main] DEBUG io.netty.channel.MultithreadEventLoopGroup - -Dio.netty.eventLoopThreads: 24
+11:45:53.407 [main] DEBUG io.netty.channel.nio.NioEventLoop - -Dio.netty.noKeySetOptimization: false
+11:45:53.407 [main] DEBUG io.netty.channel.nio.NioEventLoop - -Dio.netty.selectorAutoRebuildThreshold: 512
+11:45:53.452 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.numHeapArenas: 24
+11:45:53.452 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.numDirectArenas: 24
+11:45:53.452 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.pageSize: 8192
+11:45:53.452 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxOrder: 9
+11:45:53.452 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.chunkSize: 4194304
+11:45:53.453 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.smallCacheSize: 256
+11:45:53.453 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.normalCacheSize: 64
+11:45:53.453 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+11:45:53.453 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.cacheTrimInterval: 8192
+11:45:53.453 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+11:45:53.453 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.useCacheForAllThreads: false
+11:45:53.453 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+11:45:53.464 [main] DEBUG io.netty.buffer.ByteBufUtil - -Dio.netty.allocator.type: pooled
+11:45:53.464 [main] DEBUG io.netty.buffer.ByteBufUtil - -Dio.netty.threadLocalDirectBufferSize: 0
+11:45:53.465 [main] DEBUG io.netty.buffer.ByteBufUtil - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+11:45:54.020 [Forwarding newSession on session null to remote] DEBUG io.netty.channel.DefaultChannelId - -Dio.netty.processId: 27380 (auto-detected)
+11:45:54.023 [Forwarding newSession on session null to remote] DEBUG io.netty.util.NetUtil - -Djava.net.preferIPv4Stack: false
+11:45:54.023 [Forwarding newSession on session null to remote] DEBUG io.netty.util.NetUtil - -Djava.net.preferIPv6Addresses: false
+11:45:54.193 [Forwarding newSession on session null to remote] DEBUG io.netty.util.NetUtilInitializations - Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+11:45:54.195 [Forwarding newSession on session null to remote] DEBUG io.netty.util.NetUtil - Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+11:45:54.207 [Forwarding newSession on session null to remote] DEBUG io.netty.channel.DefaultChannelId - -Dio.netty.machineId: f0:a6:54:ff:fe:7d:30:37 (auto-detected)
+11:45:54.251 [AsyncHttpClient-1-2] DEBUG io.netty.buffer.AbstractByteBuf - -Dio.netty.buffer.checkAccessible: true
+11:45:54.251 [AsyncHttpClient-1-2] DEBUG io.netty.buffer.AbstractByteBuf - -Dio.netty.buffer.checkBounds: true
+11:45:54.251 [AsyncHttpClient-1-2] DEBUG io.netty.util.ResourceLeakDetectorFactory - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@48e10aff
+11:45:54.274 [AsyncHttpClient-1-2] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.maxCapacityPerThread: 4096
+11:45:54.274 [AsyncHttpClient-1-2] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.ratio: 8
+11:45:54.274 [AsyncHttpClient-1-2] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.chunkSize: 32
+11:45:54.275 [AsyncHttpClient-1-2] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.blocking: false
+11:45:54.275 [AsyncHttpClient-1-2] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.batchFastThreadLocalOnly: true
+11:45:54.955 [AsyncHttpClient-1-2] DEBUG io.netty.handler.codec.compression.Brotli - brotli4j not in the classpath; Brotli support will be unavailable.
+11:45:55.107 [main] DEBUG io.netty.util.internal.ThreadLocalRandom - -Dio.netty.initialSeedUniquifier: 0xfd78775c8815dd10
+11:45:56.473 [main] INFO  GS.SeleniumFramework.Login - ################################################################################
+11:45:56.473 [main] INFO  GS.SeleniumFramework.Login - Positive login testcase started
+11:45:56.867 [main] INFO  GS.SeleniumFramework.Login - Positive login testcase successfully executed
+11:46:01.621 [main] INFO  GS.SeleniumFramework.Login - ################################################################################
+11:46:01.622 [main] INFO  GS.SeleniumFramework.Login - Negative login testcase started
+11:46:01.622 [main] INFO  GS.SeleniumFramework.Login - Inputting valid email and invalid password
+11:46:02.657 [main] INFO  GS.SeleniumFramework.Login - Capturing error message
+11:46:02.657 [main] INFO  GS.SeleniumFramework.Login - Asserting negative login testcase error message
+11:46:02.660 [main] INFO  GS.SeleniumFramework.Login - Assertion passed
+11:46:02.660 [main] INFO  GS.SeleniumFramework.Login - Negative login testcase successfully executed
+11:46:05.957 [main] INFO  GS.SeleniumFramework.OrderSubmit - ################################################################################
+11:46:05.959 [main] INFO  GS.SeleniumFramework.OrderSubmit - Submit order testcase stared
+11:46:05.959 [main] INFO  GS.SeleniumFramework.OrderSubmit - Login into site
+11:46:06.301 [main] INFO  GS.SeleniumFramework.OrderSubmit - Clicking add to cart button for ADIDAS ORIGINAL
+11:46:08.446 [main] INFO  GS.SeleniumFramework.OrderSubmit - Clicking add to cart button for IPHONE 13 PRO
+11:46:11.193 [main] INFO  GS.SeleniumFramework.OrderSubmit - Clicking button for going to cart page 
+11:46:11.265 [main] INFO  GS.SeleniumFramework.OrderSubmit - Verifying product existence in cart page 
+11:46:11.351 [main] INFO  GS.SeleniumFramework.OrderSubmit - Assertion passed
+11:46:11.351 [main] INFO  GS.SeleniumFramework.OrderSubmit - Clicking checkout button 
+11:46:12.432 [main] INFO  GS.SeleniumFramework.OrderSubmit - Landed on checkout page
+11:46:12.435 [main] INFO  GS.SeleniumFramework.OrderSubmit - Selecting country India in checkout page
+11:46:14.626 [main] INFO  GS.SeleniumFramework.OrderSubmit - Country india selected from dropdown
+11:46:14.626 [main] INFO  GS.SeleniumFramework.OrderSubmit - Clicking submit button
+11:46:14.669 [main] INFO  GS.SeleniumFramework.OrderSubmit - Order submitted
+11:46:14.671 [main] INFO  GS.SeleniumFramework.OrderSubmit - Capturing thank you message from thank you page
+11:46:14.797 [main] INFO  GS.SeleniumFramework.OrderSubmit - Thank you message assertion pass
+11:54:48.841 [main] DEBUG io.netty.util.internal.logging.InternalLoggerFactory - Using Log4J2 as the default logging framework
+11:54:48.848 [main] DEBUG io.netty.util.ResourceLeakDetector - -Dio.netty.leakDetection.level: simple
+11:54:48.848 [main] DEBUG io.netty.util.ResourceLeakDetector - -Dio.netty.leakDetection.targetRecords: 4
+11:54:48.850 [main] DEBUG io.netty.util.ResourceLeakDetectorFactory - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@75fa1be3
+11:54:48.861 [main] DEBUG io.netty.util.internal.PlatformDependent0 - -Dio.netty.noUnsafe: false
+11:54:48.861 [main] DEBUG io.netty.util.internal.PlatformDependent0 - Java version: 11
+11:54:48.862 [main] DEBUG io.netty.util.internal.PlatformDependent0 - sun.misc.Unsafe.theUnsafe: available
+11:54:48.863 [main] DEBUG io.netty.util.internal.PlatformDependent0 - sun.misc.Unsafe.copyMemory: available
+11:54:48.863 [main] DEBUG io.netty.util.internal.PlatformDependent0 - sun.misc.Unsafe.storeFence: available
+11:54:48.863 [main] DEBUG io.netty.util.internal.PlatformDependent0 - java.nio.Buffer.address: available
+11:54:48.863 [main] DEBUG io.netty.util.internal.PlatformDependent0 - direct buffer constructor: unavailable: Reflective setAccessible(true) disabled
+11:54:48.864 [main] DEBUG io.netty.util.internal.PlatformDependent0 - java.nio.Bits.unaligned: available, true
+11:54:48.864 [main] DEBUG io.netty.util.internal.PlatformDependent0 - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable: class io.netty.util.internal.PlatformDependent0$7 cannot access class jdk.internal.misc.Unsafe (in module java.base) because module java.base does not export jdk.internal.misc to unnamed module @28737371
+11:54:48.865 [main] DEBUG io.netty.util.internal.PlatformDependent0 - java.nio.DirectByteBuffer.<init>(long, int): unavailable
+11:54:48.865 [main] DEBUG io.netty.util.internal.PlatformDependent - sun.misc.Unsafe: available
+11:54:48.866 [main] DEBUG io.netty.util.internal.PlatformDependent - maxDirectMemory: 4208984064 bytes (maybe)
+11:54:48.866 [main] DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.tmpdir: C:\Users\STL\AppData\Local\Temp (java.io.tmpdir)
+11:54:48.866 [main] DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+11:54:48.866 [main] DEBUG io.netty.util.internal.PlatformDependent - Platform: Windows
+11:54:48.866 [main] DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.maxDirectMemory: -1 bytes
+11:54:48.866 [main] DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+11:54:48.867 [main] DEBUG io.netty.util.internal.CleanerJava9 - java.nio.ByteBuffer.cleaner(): available
+11:54:48.867 [main] DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.noPreferDirect: false
+11:54:48.871 [main] DEBUG io.netty.util.internal.PlatformDependent - org.jctools-core.MpscChunkedArrayQueue: available
+11:54:48.885 [main] DEBUG io.netty.util.internal.InternalThreadLocalMap - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+11:54:48.885 [main] DEBUG io.netty.util.internal.InternalThreadLocalMap - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+11:54:48.902 [main] DEBUG io.netty.handler.ssl.JdkSslContext - Default protocols (JDK): [TLSv1.3, TLSv1.2] 
+11:54:48.902 [main] DEBUG io.netty.handler.ssl.JdkSslContext - Default cipher suites (JDK): [TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_AES_128_GCM_SHA256, TLS_AES_256_GCM_SHA384]
+11:54:48.913 [main] DEBUG io.netty.util.concurrent.GlobalEventExecutor - -Dio.netty.globalEventExecutor.quietPeriodSeconds: 1
+11:54:48.922 [main] DEBUG io.netty.channel.MultithreadEventLoopGroup - -Dio.netty.eventLoopThreads: 24
+11:54:48.927 [main] DEBUG io.netty.channel.nio.NioEventLoop - -Dio.netty.noKeySetOptimization: false
+11:54:48.927 [main] DEBUG io.netty.channel.nio.NioEventLoop - -Dio.netty.selectorAutoRebuildThreshold: 512
+11:54:48.959 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.numHeapArenas: 24
+11:54:48.959 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.numDirectArenas: 24
+11:54:48.959 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.pageSize: 8192
+11:54:48.959 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxOrder: 9
+11:54:48.959 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.chunkSize: 4194304
+11:54:48.959 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.smallCacheSize: 256
+11:54:48.960 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.normalCacheSize: 64
+11:54:48.960 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+11:54:48.960 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.cacheTrimInterval: 8192
+11:54:48.960 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+11:54:48.960 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.useCacheForAllThreads: false
+11:54:48.960 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+11:54:48.968 [main] DEBUG io.netty.buffer.ByteBufUtil - -Dio.netty.allocator.type: pooled
+11:54:48.968 [main] DEBUG io.netty.buffer.ByteBufUtil - -Dio.netty.threadLocalDirectBufferSize: 0
+11:54:48.968 [main] DEBUG io.netty.buffer.ByteBufUtil - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+11:54:49.216 [Forwarding newSession on session null to remote] DEBUG io.netty.channel.DefaultChannelId - -Dio.netty.processId: 29720 (auto-detected)
+11:54:49.217 [Forwarding newSession on session null to remote] DEBUG io.netty.util.NetUtil - -Djava.net.preferIPv4Stack: false
+11:54:49.217 [Forwarding newSession on session null to remote] DEBUG io.netty.util.NetUtil - -Djava.net.preferIPv6Addresses: false
+11:54:49.384 [Forwarding newSession on session null to remote] DEBUG io.netty.util.NetUtilInitializations - Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+11:54:49.384 [Forwarding newSession on session null to remote] DEBUG io.netty.util.NetUtil - Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+11:54:49.397 [Forwarding newSession on session null to remote] DEBUG io.netty.channel.DefaultChannelId - -Dio.netty.machineId: f0:a6:54:ff:fe:7d:30:37 (auto-detected)
+11:54:49.431 [AsyncHttpClient-1-2] DEBUG io.netty.buffer.AbstractByteBuf - -Dio.netty.buffer.checkAccessible: true
+11:54:49.432 [AsyncHttpClient-1-2] DEBUG io.netty.buffer.AbstractByteBuf - -Dio.netty.buffer.checkBounds: true
+11:54:49.432 [AsyncHttpClient-1-2] DEBUG io.netty.util.ResourceLeakDetectorFactory - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@1784b3f8
+11:54:49.457 [AsyncHttpClient-1-2] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.maxCapacityPerThread: 4096
+11:54:49.457 [AsyncHttpClient-1-2] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.ratio: 8
+11:54:49.457 [AsyncHttpClient-1-2] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.chunkSize: 32
+11:54:49.457 [AsyncHttpClient-1-2] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.blocking: false
+11:54:49.457 [AsyncHttpClient-1-2] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.batchFastThreadLocalOnly: true
+11:54:50.101 [AsyncHttpClient-1-2] DEBUG io.netty.handler.codec.compression.Brotli - brotli4j not in the classpath; Brotli support will be unavailable.
+11:54:50.224 [main] DEBUG io.netty.util.internal.ThreadLocalRandom - -Dio.netty.initialSeedUniquifier: 0x4c16692df46381d8
+11:54:52.283 [main] INFO  GS.SeleniumFramework.Login - ################################################################################
+11:54:52.283 [main] INFO  GS.SeleniumFramework.Login - Positive login testcase started
+11:54:52.806 [main] INFO  GS.SeleniumFramework.Login - Positive login testcase successfully executed
+11:54:56.094 [main] INFO  GS.SeleniumFramework.Login - ################################################################################
+11:54:56.095 [main] INFO  GS.SeleniumFramework.Login - Negative login testcase started
+11:54:56.101 [main] INFO  GS.SeleniumFramework.Login - Inputting valid email and invalid password
+11:54:56.669 [main] INFO  GS.SeleniumFramework.Login - Capturing error message
+11:54:56.670 [main] INFO  GS.SeleniumFramework.Login - Asserting negative login testcase error message
+11:54:56.672 [main] INFO  GS.SeleniumFramework.Login - Assertion passed
+11:54:56.673 [main] INFO  GS.SeleniumFramework.Login - Negative login testcase successfully executed
+11:55:00.148 [main] INFO  GS.SeleniumFramework.OrderSubmit - ################################################################################
+11:55:00.150 [main] INFO  GS.SeleniumFramework.OrderSubmit - Submit order testcase stared
+11:55:00.150 [main] INFO  GS.SeleniumFramework.OrderSubmit - Login into site
+11:55:00.485 [main] INFO  GS.SeleniumFramework.OrderSubmit - Clicking add to cart button for ADIDAS ORIGINAL
+11:55:02.676 [main] INFO  GS.SeleniumFramework.OrderSubmit - Clicking add to cart button for IPHONE 13 PRO
+11:55:05.395 [main] INFO  GS.SeleniumFramework.OrderSubmit - Clicking button for going to cart page 
+11:55:05.474 [main] INFO  GS.SeleniumFramework.OrderSubmit - Verifying product existence in cart page 
+11:55:05.569 [main] INFO  GS.SeleniumFramework.OrderSubmit - Assertion passed
+11:55:05.569 [main] INFO  GS.SeleniumFramework.OrderSubmit - Clicking checkout button 
+11:55:06.657 [main] INFO  GS.SeleniumFramework.OrderSubmit - Landed on checkout page
+11:55:06.659 [main] INFO  GS.SeleniumFramework.OrderSubmit - Selecting country India in checkout page
+11:55:08.830 [main] INFO  GS.SeleniumFramework.OrderSubmit - Country india selected from dropdown
+11:55:08.830 [main] INFO  GS.SeleniumFramework.OrderSubmit - Clicking submit button
+11:55:08.880 [main] INFO  GS.SeleniumFramework.OrderSubmit - Order submitted
+11:55:08.882 [main] INFO  GS.SeleniumFramework.OrderSubmit - Capturing thank you message from thank you page
+11:55:09.013 [main] INFO  GS.SeleniumFramework.OrderSubmit - Thank you message assertion pass
+22:47:03.361 [main] DEBUG io.netty.util.internal.logging.InternalLoggerFactory - Using Log4J2 as the default logging framework
+22:47:03.381 [main] DEBUG io.netty.util.ResourceLeakDetector - -Dio.netty.leakDetection.level: simple
+22:47:03.381 [main] DEBUG io.netty.util.ResourceLeakDetector - -Dio.netty.leakDetection.targetRecords: 4
+22:47:03.389 [main] DEBUG io.netty.util.ResourceLeakDetectorFactory - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@4af45442
+22:47:03.455 [main] DEBUG io.netty.util.internal.PlatformDependent0 - -Dio.netty.noUnsafe: false
+22:47:03.456 [main] DEBUG io.netty.util.internal.PlatformDependent0 - Java version: 11
+22:47:03.459 [main] DEBUG io.netty.util.internal.PlatformDependent0 - sun.misc.Unsafe.theUnsafe: available
+22:47:03.461 [main] DEBUG io.netty.util.internal.PlatformDependent0 - sun.misc.Unsafe.copyMemory: available
+22:47:03.461 [main] DEBUG io.netty.util.internal.PlatformDependent0 - sun.misc.Unsafe.storeFence: available
+22:47:03.463 [main] DEBUG io.netty.util.internal.PlatformDependent0 - java.nio.Buffer.address: available
+22:47:03.464 [main] DEBUG io.netty.util.internal.PlatformDependent0 - direct buffer constructor: unavailable: Reflective setAccessible(true) disabled
+22:47:03.466 [main] DEBUG io.netty.util.internal.PlatformDependent0 - java.nio.Bits.unaligned: available, true
+22:47:03.468 [main] DEBUG io.netty.util.internal.PlatformDependent0 - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable: class io.netty.util.internal.PlatformDependent0$7 cannot access class jdk.internal.misc.Unsafe (in module java.base) because module java.base does not export jdk.internal.misc to unnamed module @2da66a44
+22:47:03.471 [main] DEBUG io.netty.util.internal.PlatformDependent0 - java.nio.DirectByteBuffer.<init>(long, int): unavailable
+22:47:03.471 [main] DEBUG io.netty.util.internal.PlatformDependent - sun.misc.Unsafe: available
+22:47:03.473 [main] DEBUG io.netty.util.internal.PlatformDependent - maxDirectMemory: 4208984064 bytes (maybe)
+22:47:03.473 [main] DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.tmpdir: C:\Users\STL\AppData\Local\Temp (java.io.tmpdir)
+22:47:03.473 [main] DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+22:47:03.474 [main] DEBUG io.netty.util.internal.PlatformDependent - Platform: Windows
+22:47:03.475 [main] DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.maxDirectMemory: -1 bytes
+22:47:03.475 [main] DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+22:47:03.479 [main] DEBUG io.netty.util.internal.CleanerJava9 - java.nio.ByteBuffer.cleaner(): available
+22:47:03.479 [main] DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.noPreferDirect: false
+22:47:03.495 [main] DEBUG io.netty.util.internal.PlatformDependent - org.jctools-core.MpscChunkedArrayQueue: available
+22:47:03.544 [main] DEBUG io.netty.util.internal.InternalThreadLocalMap - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+22:47:03.544 [main] DEBUG io.netty.util.internal.InternalThreadLocalMap - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+22:47:03.581 [main] DEBUG io.netty.handler.ssl.JdkSslContext - Default protocols (JDK): [TLSv1.3, TLSv1.2] 
+22:47:03.582 [main] DEBUG io.netty.handler.ssl.JdkSslContext - Default cipher suites (JDK): [TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_AES_128_GCM_SHA256, TLS_AES_256_GCM_SHA384]
+22:47:03.611 [main] DEBUG io.netty.util.concurrent.GlobalEventExecutor - -Dio.netty.globalEventExecutor.quietPeriodSeconds: 1
+22:47:03.644 [main] DEBUG io.netty.channel.MultithreadEventLoopGroup - -Dio.netty.eventLoopThreads: 24
+22:47:03.665 [main] DEBUG io.netty.channel.nio.NioEventLoop - -Dio.netty.noKeySetOptimization: false
+22:47:03.665 [main] DEBUG io.netty.channel.nio.NioEventLoop - -Dio.netty.selectorAutoRebuildThreshold: 512
+22:47:03.769 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.numHeapArenas: 24
+22:47:03.769 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.numDirectArenas: 24
+22:47:03.769 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.pageSize: 8192
+22:47:03.769 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxOrder: 9
+22:47:03.769 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.chunkSize: 4194304
+22:47:03.770 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.smallCacheSize: 256
+22:47:03.770 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.normalCacheSize: 64
+22:47:03.770 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+22:47:03.770 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.cacheTrimInterval: 8192
+22:47:03.770 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+22:47:03.770 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.useCacheForAllThreads: false
+22:47:03.770 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+22:47:03.793 [main] DEBUG io.netty.buffer.ByteBufUtil - -Dio.netty.allocator.type: pooled
+22:47:03.793 [main] DEBUG io.netty.buffer.ByteBufUtil - -Dio.netty.threadLocalDirectBufferSize: 0
+22:47:03.793 [main] DEBUG io.netty.buffer.ByteBufUtil - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+22:47:04.657 [Forwarding newSession on session null to remote] DEBUG io.netty.channel.DefaultChannelId - -Dio.netty.processId: 17640 (auto-detected)
+22:47:04.663 [Forwarding newSession on session null to remote] DEBUG io.netty.util.NetUtil - -Djava.net.preferIPv4Stack: false
+22:47:04.663 [Forwarding newSession on session null to remote] DEBUG io.netty.util.NetUtil - -Djava.net.preferIPv6Addresses: false
+22:47:05.219 [Forwarding newSession on session null to remote] DEBUG io.netty.util.NetUtilInitializations - Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+22:47:05.226 [Forwarding newSession on session null to remote] DEBUG io.netty.util.NetUtil - Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+22:47:05.265 [Forwarding newSession on session null to remote] DEBUG io.netty.channel.DefaultChannelId - -Dio.netty.machineId: f0:a6:54:ff:fe:7d:30:37 (auto-detected)
+22:47:05.363 [AsyncHttpClient-1-2] DEBUG io.netty.buffer.AbstractByteBuf - -Dio.netty.buffer.checkAccessible: true
+22:47:05.365 [AsyncHttpClient-1-2] DEBUG io.netty.buffer.AbstractByteBuf - -Dio.netty.buffer.checkBounds: true
+22:47:05.365 [AsyncHttpClient-1-2] DEBUG io.netty.util.ResourceLeakDetectorFactory - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@64866a86
+22:47:05.420 [AsyncHttpClient-1-2] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.maxCapacityPerThread: 4096
+22:47:05.420 [AsyncHttpClient-1-2] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.ratio: 8
+22:47:05.420 [AsyncHttpClient-1-2] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.chunkSize: 32
+22:47:05.420 [AsyncHttpClient-1-2] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.blocking: false
+22:47:05.420 [AsyncHttpClient-1-2] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.batchFastThreadLocalOnly: true
+22:47:06.130 [AsyncHttpClient-1-2] DEBUG io.netty.handler.codec.compression.Brotli - brotli4j not in the classpath; Brotli support will be unavailable.
+22:47:06.305 [main] DEBUG io.netty.util.internal.ThreadLocalRandom - -Dio.netty.initialSeedUniquifier: 0x100ad85d5c647f44
+22:47:07.886 [main] INFO  GS.SeleniumFramework.Login - ################################################################################
+22:47:07.886 [main] INFO  GS.SeleniumFramework.Login - Positive login testcase started
+22:47:08.309 [main] INFO  GS.SeleniumFramework.Login - Positive login testcase successfully executed
+22:47:15.098 [main] INFO  GS.SeleniumFramework.Login - ################################################################################
+22:47:15.099 [main] INFO  GS.SeleniumFramework.Login - Negative login testcase started
+22:47:15.104 [main] INFO  GS.SeleniumFramework.Login - Inputting valid email and invalid password
+22:47:15.659 [main] INFO  GS.SeleniumFramework.Login - Capturing error message
+22:47:15.659 [main] INFO  GS.SeleniumFramework.Login - Asserting negative login testcase error message
+22:47:15.663 [main] INFO  GS.SeleniumFramework.Login - Assertion passed
+22:47:15.663 [main] INFO  GS.SeleniumFramework.Login - Negative login testcase successfully executed
+22:47:19.815 [main] INFO  GS.SeleniumFramework.OrderSubmit - ################################################################################
+22:47:19.816 [main] INFO  GS.SeleniumFramework.OrderSubmit - Submit order testcase stared
+22:47:19.816 [main] INFO  GS.SeleniumFramework.OrderSubmit - Login into site
+22:47:20.178 [main] INFO  GS.SeleniumFramework.OrderSubmit - Clicking add to cart button for ADIDAS ORIGINAL
+22:47:22.391 [main] INFO  GS.SeleniumFramework.OrderSubmit - Clicking add to cart button for IPHONE 13 PRO
+22:47:25.245 [main] INFO  GS.SeleniumFramework.OrderSubmit - Clicking button for going to cart page 
+22:47:25.334 [main] INFO  GS.SeleniumFramework.OrderSubmit - Verifying product existence in cart page 
+22:47:25.496 [main] INFO  GS.SeleniumFramework.OrderSubmit - Assertion passed
+22:47:25.496 [main] INFO  GS.SeleniumFramework.OrderSubmit - Clicking checkout button 
+22:47:26.579 [main] INFO  GS.SeleniumFramework.OrderSubmit - Landed on checkout page
+22:47:26.583 [main] INFO  GS.SeleniumFramework.OrderSubmit - Selecting country India in checkout page
+22:47:28.782 [main] INFO  GS.SeleniumFramework.OrderSubmit - Country india selected from dropdown
+22:47:28.783 [main] INFO  GS.SeleniumFramework.OrderSubmit - Clicking submit button
+22:47:28.834 [main] INFO  GS.SeleniumFramework.OrderSubmit - Order submitted
+22:47:28.838 [main] INFO  GS.SeleniumFramework.OrderSubmit - Capturing thank you message from thank you page
+22:47:29.006 [main] INFO  GS.SeleniumFramework.OrderSubmit - Thank you message assertion pass
+00:00:54.180 [main] DEBUG io.netty.util.internal.logging.InternalLoggerFactory - Using Log4J2 as the default logging framework
+00:00:54.186 [main] DEBUG io.netty.util.ResourceLeakDetector - -Dio.netty.leakDetection.level: simple
+00:00:54.186 [main] DEBUG io.netty.util.ResourceLeakDetector - -Dio.netty.leakDetection.targetRecords: 4
+00:00:54.189 [main] DEBUG io.netty.util.ResourceLeakDetectorFactory - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@4af45442
+00:00:54.224 [main] DEBUG io.netty.util.internal.PlatformDependent0 - -Dio.netty.noUnsafe: false
+00:00:54.224 [main] DEBUG io.netty.util.internal.PlatformDependent0 - Java version: 11
+00:00:54.225 [main] DEBUG io.netty.util.internal.PlatformDependent0 - sun.misc.Unsafe.theUnsafe: available
+00:00:54.226 [main] DEBUG io.netty.util.internal.PlatformDependent0 - sun.misc.Unsafe.copyMemory: available
+00:00:54.226 [main] DEBUG io.netty.util.internal.PlatformDependent0 - sun.misc.Unsafe.storeFence: available
+00:00:54.227 [main] DEBUG io.netty.util.internal.PlatformDependent0 - java.nio.Buffer.address: available
+00:00:54.227 [main] DEBUG io.netty.util.internal.PlatformDependent0 - direct buffer constructor: unavailable: Reflective setAccessible(true) disabled
+00:00:54.228 [main] DEBUG io.netty.util.internal.PlatformDependent0 - java.nio.Bits.unaligned: available, true
+00:00:54.229 [main] DEBUG io.netty.util.internal.PlatformDependent0 - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable: class io.netty.util.internal.PlatformDependent0$7 cannot access class jdk.internal.misc.Unsafe (in module java.base) because module java.base does not export jdk.internal.misc to unnamed module @2da66a44
+00:00:54.229 [main] DEBUG io.netty.util.internal.PlatformDependent0 - java.nio.DirectByteBuffer.<init>(long, int): unavailable
+00:00:54.229 [main] DEBUG io.netty.util.internal.PlatformDependent - sun.misc.Unsafe: available
+00:00:54.230 [main] DEBUG io.netty.util.internal.PlatformDependent - maxDirectMemory: 4208984064 bytes (maybe)
+00:00:54.230 [main] DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.tmpdir: C:\Users\STL\AppData\Local\Temp (java.io.tmpdir)
