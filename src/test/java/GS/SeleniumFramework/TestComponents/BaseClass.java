@@ -28,7 +28,7 @@ public class BaseClass {
 
 		//properties class
 		Properties prop =  new Properties();
-		FileInputStream fis = new FileInputStream(System.getProperty("user.dir")+ File.separator +"src"+ File.separator +"main"+ File.separator +"java"+ File.separator +"GS"+ File.separator +"SeleniumFramework"+ File.separator +"resources"+ File.separator +"GlobalData.properties");
+		FileInputStream fis = new FileInputStream(System.getProperty("user.dir")+File.separator +"src"+ File.separator +"main"+ File.separator +"java"+ File.separator +"GS"+ File.separator +"SeleniumFramework"+ File.separator +"resources"+ File.separator +"GlobalData.properties");
 		prop.load(fis);
 		//String BrowserName = prop.getProperty("browser");
 		String BrowserName = System.getProperty("browser")!=null ? System.getProperty("browser") :prop.getProperty("browser");
